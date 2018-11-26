@@ -1,0 +1,74 @@
+body{
+	background-image: url(images/stars.jpg);
+	background-color: black;
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+
+}
+
+#luke{
+	width: 240px;
+	height:300px ;
+	display: inline-block;
+	margin-top:5px;
+	margin:30px;
+	border: solid 1px yellow;
+}
+#leia{
+	width:225px;
+	height: 271px;
+	display:inline-block;
+	margin-top: 5px;
+	margin:30px;
+	border: solid 1px yellow;
+}
+
+#darth{
+	width:234px;
+	height:343px;
+	display:inline-block;
+	margin-top:5px;
+	margin:30px;
+	border: solid 1px yellow;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: 'Bungee', sans-serif;
+}
+
+h2{
+	color:white;
+	text-align:center;
+
+}
+h3{
+	color:white;
+	text-align:center;
+
+}
+
+#infoLuke{
+	display: inline-block;
+	justify-content: center;
+	margin-top: 5px;
+	margin-left: 90px;
+	margin-right: 80px;
+}
+#infoDarth{
+	display: inline-block;
+	justify-content: center;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#infoLeia{
+	display: inline-block;
+	justify-content: center;
+	margin-top: 5px;
+	margin-left: 70px;
+	margin-right: 80px;
+}
